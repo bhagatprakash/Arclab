@@ -44,9 +44,11 @@ header {
   font-weight: bold;
   color: black;
 }
-
+.head {
+  margin-left: 80px;
+}
 .hero {
-  margin-top: 180px;
+  margin-top: 210px;
   margin-left: 200px;
   font-size: 25px;
 }
@@ -61,6 +63,7 @@ header {
   font-size: 25px;
   font-weight: bold;
   opacity: 0.7;
+  margin-left: 80px;
 }
 /* <!-- section-2  --> */
 .hero-2 {
@@ -216,20 +219,27 @@ div.box-1 {
   justify-content: space-around;
 }
 div.card-1 {
-  width: 400px;
+  width: 40%;
   text-align: center;
   margin-top: 40px;
+  /* margin-right: 10px; */
+}
+.img-1 {
+  margin-left: 10px;
 }
 .first-text {
-  margin-top: 200px;
+  margin-top: 150px;
   margin-right: 80px;
 }
 .heading-1 {
-  font-size: 15px;
+  font-size: 20px;
+  margin-right: 320px;
+  opacity: 0.7;
 }
 .sub-heading-1 {
-  font-size: 45px;
+  font-size: 60px;
 }
 .sub-heading-2 {
   opacity: 0.7;
+  font-size: 20px;
 }
