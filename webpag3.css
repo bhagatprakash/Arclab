@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.hero_section {
+  background-image: url(./images/salad\ cafe.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-container {
+  color: black;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 224px;
+  padding-left: 636px;
+}
+.lg_text {
+  font-size: 22px;
+}
+h2 {
+  font-size: 52px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: beige;
+}
+.menu {
+  padding: 5vh 20vh 5vh 20vh;
+}
+.menu h1 {
+  font-size: 50px;
+}
+.m-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+}
+.m-row-colman {
+  min-width: 250px;
+  width: 34%;
+  /* background-color: aqua; */
+  margin: auto;
+}
+/* secion-2 */
+
+
+.card-iner {
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  height: 300px;
+  /* width: 300px; */
+  width: 40%;
+  min-width: 300px;
+  background-color: white;
+}
+
+.card-row {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
