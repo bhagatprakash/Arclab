@@ -54,27 +54,44 @@ h2 {
 }
 /* secion-2 */
 
-
 .card-iner {
   height: 100vh;
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.card {
-  height: 300px;
-  /* width: 300px; */
-  width: 40%;
-  min-width: 300px;
-  background-color: white;
+  flex-direction: column;
 }
 
 .card-row {
-  background-color: aqua;
+  width: 100%;
+  /* background-color: aqua; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: center;
 }
+
+.card-1 {
+  height: 300px;
+  margin: 5px;
+  min-width: 300px;
+  /* width: 40%; */
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-thumb {
+  overflow: hidden;
+}
+.card-deatil {
+  margin-left: 20px;
+  width: 300px;
+}
+.card-deatil h2 {
+  font-size: 30px;
+}
+
+ /* <!-- section-3  --> */
