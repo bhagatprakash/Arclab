@@ -8,7 +8,18 @@ body {
   font-weight: 300;
   font-family: sans-serif;
 }
+
+.salad {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  /* justify-content: center; */
+  font-size: 50px;
+  margin-left: 20px;
+}
 .hero_section {
+  /* display: flex;
+  flex-wrap: wrap; */
   background-image: url(./images/salad\ cafe.jpg);
   min-height: 100vh;
   background-position: center;
@@ -17,9 +28,9 @@ body {
 }
 .text-container {
   color: black;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
-  padding-top: 224px;
+  padding-top: 50px;
   padding-left: 636px;
 }
 .lg_text {
@@ -27,6 +38,9 @@ body {
 }
 h2 {
   font-size: 52px;
+}
+.peregrf {
+  font-size: 20px;
 }
 .card {
   display: flex;
@@ -94,4 +108,151 @@ h2 {
   font-size: 30px;
 }
 
- /* <!-- section-3  --> */
+/* <!-- section-3  --> */
+.other-iner {
+  height: 100vh;
+  background-color: aliceblue;
+  background-image: url(./images/healthy-salad-ingredients_88242-344.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-position: right; */
+}
+.other-colam {
+  width: 50%;
+  height: 100%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  margin: auto auto auto 5%;
+}
+.other-colam h1 {
+  font-size: 4vh;
+  color: white;
+}
+.other-line {
+  height: 30px;
+  width: 50%;
+  background-color: bisque;
+}
+.other-menu ul li {
+  list-style: none;
+  font-size: 2vw;
+  color: white;
+}
+/* <!-- section-4  --> */
+.about-iner {
+  height: 80vh;
+  background-color: rgba(109, 188, 153, 0.151);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  background-position: bottom;
+  background-image: url(./images/aaaaa.jpg);
+}
+.about-dtails h1 {
+  font-size: 4vw;
+}
+.about-dtails p {
+  font-size: 2vw;
+}
+.about-dtails {
+  width: 50%;
+  margin: auto 5px auto auto;
+}
+/* <!-- section-5  -->  */
+.review-inner {
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.review-profail {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border: 10px solid yellow;
+  align-items: flex-start;
+}
+.review-datials {
+  width: 60%;
+  text-align: center;
+}
+
+/* <!-- section-6  --> */
+.subs-inner {
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-card {
+  background-color: white;
+  height: 450px;
+  margin: auto;
+  min-width: 300px;
+  width: 40%;
+  border-radius: 50px;
+  padding: 30px;
+  text-align: center;
+}
+.sub-title h1 {
+  font-size: 4vw;
+}
+.sub-title p {
+  font-size: 2vw;
+}
+.sub-title form {
+  display: flex;
+  flex-direction: column;
+}
+.a1 {
+  height: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 3px solid yellow;
+}
+.btn {
+  height: 50px;
+  border-radius: 50px;
+  color: black;
+  border: none;
+  background-color: yellow;
+}
+footer {
+  height: 300px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+/* 
+@media (max-width: 786px) {
+  .other-iner {
+    min-height: 1200px;
+  }
+  .text-container {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .lg_text {
+    font-size: 32px;
+  }
+} */
