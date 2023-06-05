@@ -12,19 +12,21 @@ body {
 .salad {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
-  /* justify-content: center; */
   font-size: 50px;
   margin-left: 20px;
 }
 .hero_section {
-  /* display: flex;
-  flex-wrap: wrap; */
+  /* 
   background-image: url(./images/salad\ cafe.jpg);
   min-height: 100vh;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/salad\ cafe.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .text-container {
   color: black;
@@ -69,7 +71,7 @@ h2 {
 /* secion-2 */
 
 .card-iner {
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: yellow; */
   display: flex;
   justify-content: center;
@@ -98,7 +100,10 @@ h2 {
 }
 
 .card-thumb {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
 }
 .card-deatil {
   margin-left: 20px;
@@ -110,7 +115,7 @@ h2 {
 
 /* <!-- section-3  --> */
 .other-iner {
-  height: 100vh;
+  /* height: 100vh;  */
   background-color: aliceblue;
   background-image: url(./images/healthy-salad-ingredients_88242-344.avif);
   background-size: cover;
@@ -143,10 +148,12 @@ h2 {
   color: white;
 }
 /* <!-- section-4  --> */
-.about-iner {
-  height: 80vh;
+
+section.about-iner {
+  /* height: 80vh; */
   background-color: rgba(109, 188, 153, 0.151);
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -164,12 +171,11 @@ h2 {
 }
 .about-dtails {
   width: 50%;
-  margin: auto 5px auto auto;
+  margin: auto auto auto auto;
 }
 /* <!-- section-5  -->  */
 .review-inner {
   height: 80vh;
-
   display: flex;
   flex-direction: column;
   align-items: center;
