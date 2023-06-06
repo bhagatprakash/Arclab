@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(177, 141, 196);
-
   position: sticky;
 }
 .navbar ul {
@@ -38,19 +37,15 @@
 #home {
   display: flex;
   flex-direction: column;
-  /* background-color: black; */
-  height: 840px;
-  justify-content: center;
-  align-items: center;
-  color: wheat;
+  height: 530px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* color: wheat; */
 }
 #home::before {
   content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
   background: url(./images/new\ projekt.jpeg);
-  height: 900px;
+  height: 530px;
   width: 100%;
   z-index: -1;
   opacity: 0.8;
@@ -73,7 +68,7 @@
 }
 .btn {
   padding: 10px;
-  width: 20%;
+  width: 30%;
   border-radius: 5px;
   background-color: transparent;
   outline: none;
@@ -93,22 +88,22 @@
 .heading-1 {
   display: flex;
   flex-direction: column;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   margin-bottom: 60px;
   background-color: beige;
+  padding: 7px;
 }
 #about {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
   padding: 20px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   background-color: beige;
 }
 #picture {
   display: flex;
-  /* flex-direction: column; */
 }
 #picture img {
   width: 575px;
@@ -124,10 +119,12 @@
 #intro h2 {
   font-size: 50px;
   margin-bottom: 20px;
+  padding: 10px;
 }
-#intro h2 p {
+.p1 {
   display: flex;
   flex-direction: column;
+  font-size: 25px;
 }
 
 /* prototype  */
@@ -138,8 +135,7 @@
   /* background-color: bisque; */
   /* text-align: justify; */
   align-items: center;
-  font-size: 35px;
-  padding: 20px;
+  /* padding: 10px; */
   text-transform: uppercase;
   background-color: beige;
 }
@@ -147,32 +143,41 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  box-sizing: border-box;
+  padding: 10px;
 }
 .gallary img {
   width: 360px;
   height: 240px;
   margin: 20px;
 }
+.heading-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 55px;
+  padding-top: 30px;
+}
 /* service */
 
 #service {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  /* padding: 15px; */
   background-color: beige;
+}
+.heading-2p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 45px;
+  padding-top: 20px;
 }
 .row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
-}
-.heading-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 45px;
+  padding: 10px;
 }
 
 .heading-3 {
@@ -181,13 +186,11 @@
   align-items: center;
   font-size: 30px;
   margin-bottom: 20px;
-  /* padding: 10px; */
 }
 .box {
   display: flex;
   flex-direction: column;
-  width: 350px;
-  height: 350px;
+  width: 450px;
   border: 1px solid black;
   margin: 10px;
   align-items: center;
@@ -196,7 +199,6 @@
   border-radius: 10px;
   font-size: 20px;
   background-image: linear-gradient(225 45 45) 50%, white 50%;
-  background-size: 100% 200%;
 }
 .box:hover {
   background-position: left bottom;
@@ -209,9 +211,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 20px;
-  /* padding: 10px; */
 }
 
 /* contact  */
@@ -264,6 +265,9 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .heading-2 {
+    font-size: 35px;
+  }
   #picture {
     flex-direction: column;
     align-items: center;
@@ -276,11 +280,13 @@
     text-align: center;
     padding: 10px;
   }
+
   .input {
     width: 60%;
   }
   .msg {
     width: 55%;
+    font-weight: bold;
   }
   #send {
     width: 20%;
@@ -289,8 +295,9 @@
 
 @media (max-width: 530px) {
   #home {
-    height: 820px;
+    height: 528px;
   }
+
   .heading {
     font-size: 1.7rem;
   }
