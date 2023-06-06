@@ -8,8 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(120, 86, 117);
-  top: 0;
+  background-color: rgb(177, 141, 196);
+
   position: sticky;
 }
 .navbar ul {
@@ -68,7 +68,7 @@
   font-size: 40px;
   font-family: sans-serif;
   text-align: center;
-  /* padding: 10px; */
+  color: black;
   margin: 40px 0px;
 }
 .btn {
@@ -77,6 +77,7 @@
   border-radius: 5px;
   background-color: transparent;
   outline: none;
+  font-size: 20px;
   font-weight: bold;
   transition: 0.3s ease;
 }
@@ -95,14 +96,15 @@
   font-size: 70px;
   text-align: center;
   margin-bottom: 60px;
-  background-color: antiquewhite;
+  background-color: beige;
 }
 #about {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  /* padding: 10px; */
+  padding: 20px;
   margin-bottom: 50px;
+  background-color: beige;
 }
 #picture {
   display: flex;
@@ -115,7 +117,7 @@
 #intro {
   display: flex;
   flex-direction: column;
-  /* text-align: justify; */
+  text-align: justify;
   padding: 10px;
   font-size: larger;
 }
@@ -123,8 +125,13 @@
   font-size: 50px;
   margin-bottom: 20px;
 }
+#intro h2 p {
+  display: flex;
+  flex-direction: column;
+}
 
 /* prototype  */
+
 #prototype {
   display: flex;
   flex-direction: column;
@@ -244,6 +251,8 @@
   margin: 40px;
   border: none;
   outline: none;
+  background-color: bisque;
+  font-weight: bold;
 }
 #send:hover {
   cursor: pointer;
@@ -251,12 +260,59 @@
 }
 
 @media (max-width: 800px) {
-  .about {
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #picture {
     flex-direction: column;
     align-items: center;
+  }
+  #picture img {
+    width: 475px;
+    height: 300px;
   }
   #intro h2 {
     text-align: center;
     padding: 10px;
+  }
+  .input {
+    width: 60%;
+  }
+  .msg {
+    width: 55%;
+  }
+  #send {
+    width: 20%;
+  }
+}
+
+@media (max-width: 530px) {
+  #home {
+    height: 820px;
+  }
+  .heading {
+    font-size: 1.7rem;
+  }
+  #picture img {
+    width: 300px;
+    height: 175px;
+  }
+  #intro h2 {
+    font-size: 1.5rem;
+  }
+  .gallary img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+  }
+  .input {
+    width: 80%;
+  }
+  .msg {
+    width: 70%;
+  }
+  #send {
+    width: 20%;
   }
 }
