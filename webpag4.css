@@ -38,6 +38,7 @@
   display: flex;
   flex-direction: column;
   height: 530px;
+
   /* justify-content: center; */
   /* align-items: center; */
   /* color: wheat; */
@@ -90,23 +91,25 @@
   flex-direction: column;
   font-size: 50px;
   text-align: center;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   background-color: beige;
-  padding: 7px;
+  padding: 50px;
 }
 #about {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px;
   /* margin-bottom: 50px; */
   background-color: beige;
 }
+
 #picture {
   display: flex;
+  gap: 50px;
 }
 #picture img {
-  width: 575px;
+  width: 700px;
   height: 400px;
 }
 #intro {
@@ -120,6 +123,7 @@
   font-size: 50px;
   margin-bottom: 20px;
   padding: 10px;
+  float: left;
 }
 .p1 {
   display: flex;
@@ -132,22 +136,20 @@
 #prototype {
   display: flex;
   flex-direction: column;
-  /* background-color: bisque; */
-  /* text-align: justify; */
   align-items: center;
-  /* padding: 10px; */
   text-transform: uppercase;
   background-color: beige;
+  padding-top: 30px;
 }
 .gallary {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .gallary img {
-  width: 360px;
-  height: 240px;
+  width: 400px;
+  height: 300px;
   margin: 20px;
 }
 .heading-2 {
@@ -155,7 +157,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 55px;
-  padding-top: 30px;
+  padding: 20px;
 }
 /* service */
 
@@ -165,12 +167,12 @@
   /* padding: 15px; */
   background-color: beige;
 }
-.heading-2p {
+.heading-sub {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 45px;
-  padding-top: 20px;
+  font-size: 55px;
+  padding: 20px;
 }
 .row {
   display: flex;
@@ -195,7 +197,7 @@
   margin: 10px;
   align-items: center;
   text-align: justify;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
   font-size: 20px;
   background-image: linear-gradient(225 45 45) 50%, white 50%;
@@ -211,7 +213,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 45px;
+  font-size: 55px;
   margin-bottom: 20px;
 }
 
@@ -297,12 +299,21 @@
   #home {
     height: 528px;
   }
+  .heading-1 {
+    font: size 3rem;
+  }
 
   .heading {
     font-size: 1.7rem;
   }
+  .heading-4 {
+    font-size: 2rem;
+  }
+  .heading-sub {
+    font-size: 2rem;
+  }
   #picture img {
-    width: 300px;
+    width: 240px;
     height: 175px;
   }
   #intro h2 {
