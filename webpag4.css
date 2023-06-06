@@ -37,7 +37,7 @@
 #home {
   display: flex;
   flex-direction: column;
-  height: 530px;
+  height: 630px;
 
   justify-content: center;
   align-items: center;
@@ -46,7 +46,7 @@
 #home::before {
   content: "";
   background: url(./images/new\ projekt.jpeg);
-  height: 530px;
+  height: 630px;
   width: 100%;
   z-index: -1;
   opacity: 0.8;
@@ -100,7 +100,6 @@
   flex-direction: column;
   box-sizing: border-box;
   padding: 10px;
-  /* margin-left: 50px; */
   background-color: beige;
   /* width: 100%; */
 }
@@ -108,15 +107,20 @@
 #picture {
   display: flex;
   gap: 30px;
+  position: relative;
+  align-items: center;
+  width: 80%;
+  margin: auto;
 }
 .pic {
-  width: 50%;
   justify-content: flex-end;
   display: flex;
+  /* width: 100%; */
+  height: auto;
 }
 #picture img {
-  /* width: 700px; */
-  height: 350px;
+  width: 450px;
+  height: 400px;
 }
 #intro {
   display: flex;
@@ -124,12 +128,12 @@
   text-align: justify;
   /* padding: 10px; */
   font-size: larger;
-  width: 38%;
+  /* width: 38%; */
 }
 #intro h2 {
   font-size: 45px;
-  /* margin-bottom: 5px; */
-  padding: 10px;
+  margin-bottom: 25px;
+  /* padding: 20px; */
   /* float: left; */
 }
 .p1 {
