@@ -155,7 +155,7 @@
 .gallary {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   /* padding: 10px; */
 }
 .gallary img {
@@ -303,9 +303,8 @@
   .input {
     width: 60%;
   }
-  .msg {
-    width: 55%;
-    font-weight: bold;
+  #msg {
+    width: 60%;
   }
   #send {
     width: 20%;
@@ -344,9 +343,7 @@
   .input {
     width: 80%;
   }
-  .msg {
-    width: 70%;
-  }
+
   #send {
     width: 20%;
   }
