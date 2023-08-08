@@ -142,3 +142,12 @@ footer ul {
 footer ul li {
   font-size: 1.8rem;
 }
+
+@media (max-width: 530px) {
+  #hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  }
+}
